@@ -49,16 +49,8 @@ public class BrokerBuilder {
 		this.exchange = exchange;
 		return this;
 	}
-	public BrokerBuilder setEncoding(String encoding){
-		this.encoding = encoding;
-		return this;
-	}
-	public BrokerBuilder setContentType(String contentType){
-		this.contentType = contentType;
-		return this;
-	}
-	public Broker build()
-	
+	public Broker build(){
+		return null;
 	}
 	
 	

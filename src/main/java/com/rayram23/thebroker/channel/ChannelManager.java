@@ -6,6 +6,6 @@ import com.rabbitmq.client.ShutdownListener;
 public interface ChannelManager extends ShutdownListener{
 
 	public Channel aquireChannel();
-	public void releaseChannle(Channel channel);
+	public void releaseChannal(Channel channel);
 	
 }
