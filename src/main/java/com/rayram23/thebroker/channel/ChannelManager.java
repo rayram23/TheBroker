@@ -1,5 +1,11 @@
 package com.rayram23.thebroker.channel;
 
-public class ChannelManager {
+import com.rabbitmq.client.Channel;
+import com.rabbitmq.client.ShutdownListener;
 
+public interface ChannelManager extends ShutdownListener{
+
+	public Channel aquireChannel();
+	public void releaseChannle(Channel channel);
+	
 }
